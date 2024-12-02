@@ -1,0 +1,23 @@
+<configuration>
+    <input>
+        <net-file value="grid.net.xml"/>
+        <route-files value="random.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+    <processing>
+        <seed value="42"/> <!-- Ensures reproducible randomness -->
+        <!-- Disable teleportation for vehicles stuck in jams -->
+        <time-to-teleport value="-1"/>
+        <!-- Prevent teleportation for collisions -->
+        <collision.action value="none"/>
+    </processing>
+    <report>
+        <!-- Disable all logging -->
+        <no-step-log value="true"/>
+        <no-warnings value="true"/>
+        <no-duration-log value="true"/>
+    </report>
+</configuration>
