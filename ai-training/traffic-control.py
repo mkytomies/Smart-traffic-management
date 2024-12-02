@@ -103,6 +103,10 @@ def switch_traffic_light(light_id, target_color):
 
 
 
+
+
+
+
 def get_conflicting_lights(tls_id):
     """
     Get all traffic lights in the same junction as the given traffic light ID.

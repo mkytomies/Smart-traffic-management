@@ -3,8 +3,8 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="./ai-training/modified_tampere.net.xml"/>
-        <route-files value="traffic.rou.xml"/>
+        <net-file value="./ai-training/modified_lights.net.xml"/>
+        <route-files value="modified_traffic.rou.xml"/>
     </input>
     <time>
         <begin value="0"/>

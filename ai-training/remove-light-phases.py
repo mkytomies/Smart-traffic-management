@@ -18,6 +18,6 @@ def modify_traffic_light_logic(input_file, output_file):
     print(f"Traffic light logic modified. Modified file saved as {output_file}")
 
 # Example usage:
-input_file = 'tampere.net.xml'  # Replace with your actual network XML file path
-output_file = 'modified_tampere.net.xml'  # Path to save the modified file
+input_file = 'remo-lights.net.xml'  # Replace with your actual network XML file path
+output_file = 'modified_lights.net.xml'  # Path to save the modified file
 modify_traffic_light_logic(input_file, output_file)

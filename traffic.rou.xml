@@ -1,4 +1,7 @@
 <routes>
+
+    <vType id="short_passenger_car" accel="2.6" decel="4.5" sigma="0.5" length="3.5" minGap="2.5" maxSpeed="55" guiShape="passenger"/>
+
     <!-- Flows define traffic between starts and ends -->
     <!-- 7:00-7:15 -->
     <flow id="f1-1" begin="0" end="900" from="Kalevan_puistotie#38" to="Kalevantie#8" number="18"/>

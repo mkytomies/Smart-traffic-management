@@ -1,0 +1,126 @@
+<routes>
+
+    <vType id="short_passenger_car" accel="2.6" decel="4.5" sigma="0.5" length="1.5" minGap="2.5" maxSpeed="55" guiShape="passenger" />
+
+    
+    
+    <flow id="f1-1" begin="0" end="900" from="Kalevan_puistotie#38" to="Kalevantie#8" number="18" type="short_passenger_car" />
+    <flow id="f2-1" begin="0" end="900" from="Kalevantie#25" to="Lahteenkatu#8" number="105" type="short_passenger_car" />
+    
+    <flow id="f4-1" begin="0" end="900" from="Satakunnankatu#12" to="Rautatienkatu#3" number="40" type="short_passenger_car" />
+    <flow id="f5-1" begin="0" end="900" from="Kalevan_puistotie#38" to="Sammonkatu#23" number="15" type="short_passenger_car" />
+    <flow id="f6-1" begin="0" end="900" from="Teiskontie#1" to="Rautatienkatu#3" number="88" type="short_passenger_car" />
+    <flow id="f7-1" begin="0" end="900" from="Sammonkatu#1" to="Hatanpaan_valtatie#38" number="15" type="short_passenger_car" />
+    <flow id="f8-1" begin="0" end="900" from="Kalevantie#25" to="Rautatienkatu#3" number="83" type="short_passenger_car" />
+    <flow id="f9-1" begin="0" end="900" from="Viinikankatu#2" to="Teiskontie#24" number="83" type="short_passenger_car" />
+    <flow id="f10-1" begin="0" end="900" from="Hatanpaan_valtatie#31" to="Sammonkatu#23" number="15" type="short_passenger_car" />
+    <flow id="f11-1" begin="0" end="900" from="Viinikankatu#2" to="Kalevan_puistotie#8" number="18" type="short_passenger_car" />
+    <flow id="f12-1" begin="0" end="900" from="Teiskontie#1" to="Lahteenkatu#8" number="88" type="short_passenger_car" />
+    <flow id="f13-1" begin="0" end="900" from="Sammonkatu#1" to="Viinikankatu#7" number="15" type="short_passenger_car" />
+
+    
+    <flow id="f1-2" begin="900" end="1800" from="Kalevan_puistotie#38" to="Kalevantie#8" number="45" type="short_passenger_car" />
+    <flow id="f2-2" begin="900" end="1800" from="Kalevantie#25" to="Lahteenkatu#8" number="127" type="short_passenger_car" />
+    
+    <flow id="f4-2" begin="900" end="1800" from="Satakunnankatu#12" to="Rautatienkatu#3" number="28" type="short_passenger_car" />
+    <flow id="f5-2" begin="900" end="1800" from="Kalevan_puistotie#38" to="Sammonkatu#23" number="22" type="short_passenger_car" />
+    <flow id="f6-2" begin="900" end="1800" from="Teiskontie#1" to="Rautatienkatu#3" number="112" type="short_passenger_car" />
+    <flow id="f7-2" begin="900" end="1800" from="Sammonkatu#1" to="Hatanpaan_valtatie#38" number="22" type="short_passenger_car" />
+    <flow id="f8-2" begin="900" end="1800" from="Kalevantie#25" to="Rautatienkatu#3" number="127" type="short_passenger_car" />
+    <flow id="f9-2" begin="900" end="1800" from="Viinikankatu#2" to="Teiskontie#24" number="132" type="short_passenger_car" />
+    <flow id="f10-2" begin="900" end="1800" from="Hatanpaan_valtatie#31" to="Sammonkatu#23" number="22" type="short_passenger_car" />
+    <flow id="f11-2" begin="900" end="1800" from="Viinikankatu#2" to="Kalevan_puistotie#8" number="45" type="short_passenger_car" />
+    <flow id="f12-2" begin="900" end="1800" from="Teiskontie#1" to="Lahteenkatu#8" number="114" type="short_passenger_car" />
+    <flow id="f13-2" begin="900" end="1800" from="Sammonkatu#1" to="Viinikankatu#7" number="22" type="short_passenger_car" />
+
+    
+    <flow id="f1-3" begin="1800" end="2700" from="Kalevan_puistotie#38" to="Kalevantie#8" number="50" type="short_passenger_car" />
+    <flow id="f2-3" begin="1800" end="2700" from="Kalevantie#25" to="Lahteenkatu#8" number="188" type="short_passenger_car" />
+    
+    <flow id="f4-3" begin="1800" end="2700" from="Satakunnankatu#12" to="Rautatienkatu#3" number="67" type="short_passenger_car" />
+    <flow id="f5-3" begin="1800" end="2700" from="Kalevan_puistotie#38" to="Sammonkatu#23" number="22" type="short_passenger_car" />
+    <flow id="f6-3" begin="1800" end="2700" from="Teiskontie#1" to="Rautatienkatu#3" number="130" type="short_passenger_car" />
+    <flow id="f7-3" begin="1800" end="2700" from="Sammonkatu#1" to="Hatanpaan_valtatie#38" number="22" type="short_passenger_car" />
+    <flow id="f8-3" begin="1800" end="2700" from="Kalevantie#25" to="Rautatienkatu#3" number="173" type="short_passenger_car" />
+    <flow id="f9-3" begin="1800" end="2700" from="Viinikankatu#2" to="Teiskontie#24" number="173" type="short_passenger_car" />
+    <flow id="f10-3" begin="1800" end="2700" from="Hatanpaan_valtatie#31" to="Sammonkatu#23" number="22" type="short_passenger_car" />
+    <flow id="f11-3" begin="1800" end="2700" from="Viinikankatu#2" to="Kalevan_puistotie#8" number="50" type="short_passenger_car" />
+    <flow id="f12-3" begin="1800" end="2700" from="Teiskontie#1" to="Lahteenkatu#8" number="130" type="short_passenger_car" />
+    <flow id="f13-3" begin="1800" end="2700" from="Sammonkatu#1" to="Viinikankatu#7" number="22" type="short_passenger_car" />
+
+    
+    <flow id="f1-4" begin="2700" end="3600" from="Kalevan_puistotie#38" to="Kalevantie#8" number="62" type="short_passenger_car" />
+    <flow id="f2-4" begin="2700" end="3600" from="Kalevantie#25" to="Lahteenkatu#8" number="237" type="short_passenger_car" />
+    
+    <flow id="f4-4" begin="2700" end="3600" from="Satakunnankatu#12" to="Rautatienkatu#3" number="73" type="short_passenger_car" />
+    <flow id="f5-4" begin="2700" end="3600" from="Kalevan_puistotie#38" to="Sammonkatu#23" number="50" type="short_passenger_car" />
+    <flow id="f6-4" begin="2700" end="3600" from="Teiskontie#1" to="Rautatienkatu#3" number="195" type="short_passenger_car" />
+    <flow id="f7-4" begin="2700" end="3600" from="Sammonkatu#1" to="Hatanpaan_valtatie#38" number="50" type="short_passenger_car" />
+    <flow id="f8-4" begin="2700" end="3600" from="Kalevantie#25" to="Rautatienkatu#3" number="237" type="short_passenger_car" />
+    <flow id="f9-4" begin="2700" end="3600" from="Viinikankatu#2" to="Teiskontie#24" number="332" type="short_passenger_car" />
+    <flow id="f10-4" begin="2700" end="3600" from="Hatanpaan_valtatie#31" to="Sammonkatu#23" number="50" type="short_passenger_car" />
+    <flow id="f11-4" begin="2700" end="3600" from="Viinikankatu#2" to="Kalevan_puistotie#8" number="62" type="short_passenger_car" />
+    <flow id="f12-4" begin="2700" end="3600" from="Teiskontie#1" to="Lahteenkatu#8" number="195" type="short_passenger_car" />
+    <flow id="f13-4" begin="2700" end="3600" from="Sammonkatu#1" to="Viinikankatu#7" number="50" type="short_passenger_car" />
+
+    
+    <flow id="f1-5" begin="3600" end="4500" from="Kalevan_puistotie#38" to="Kalevantie#8" number="63" type="short_passenger_car" />
+    <flow id="f2-5" begin="3600" end="4500" from="Kalevantie#25" to="Lahteenkatu#8" number="342" type="short_passenger_car" />
+    
+    <flow id="f4-5" begin="3600" end="4500" from="Satakunnankatu#12" to="Rautatienkatu#3" number="63" type="short_passenger_car" />
+    <flow id="f5-5" begin="3600" end="4500" from="Kalevan_puistotie#38" to="Sammonkatu#23" number="32" type="short_passenger_car" />
+    <flow id="f6-5" begin="3600" end="4500" from="Teiskontie#1" to="Rautatienkatu#3" number="195" type="short_passenger_car" />
+    <flow id="f7-5" begin="3600" end="4500" from="Sammonkatu#1" to="Hatanpaan_valtatie#38" number="32" type="short_passenger_car" />
+    <flow id="f8-5" begin="3600" end="4500" from="Kalevantie#25" to="Rautatienkatu#3" number="313" type="short_passenger_car" />
+    <flow id="f9-5" begin="3600" end="4500" from="Viinikankatu#2" to="Teiskontie#24" number="313" type="short_passenger_car" />
+    <flow id="f10-5" begin="3600" end="4500" from="Hatanpaan_valtatie#31" to="Sammonkatu#23" number="32" type="short_passenger_car" />
+    <flow id="f11-5" begin="3600" end="4500" from="Viinikankatu#2" to="Kalevan_puistotie#8" number="63" type="short_passenger_car" />
+    <flow id="f12-5" begin="3600" end="4500" from="Teiskontie#1" to="Lahteenkatu#8" number="195" type="short_passenger_car" />
+    <flow id="f13-5" begin="3600" end="4500" from="Sammonkatu#1" to="Viinikankatu#7" number="32" type="short_passenger_car" />
+
+    
+    <flow id="f1-6" begin="4500" end="5400" from="Kalevan_puistotie#38" to="Kalevantie#8" number="67" type="short_passenger_car" />
+    <flow id="f2-6" begin="4500" end="5400" from="Kalevantie#25" to="Lahteenkatu#8" number="213" type="short_passenger_car" />
+    
+    <flow id="f4-6" begin="4500" end="5400" from="Satakunnankatu#12" to="Rautatienkatu#3" number="100" type="short_passenger_car" />
+    <flow id="f5-6" begin="4500" end="5400" from="Kalevan_puistotie#38" to="Sammonkatu#23" number="50" type="short_passenger_car" />
+    <flow id="f6-6" begin="4500" end="5400" from="Teiskontie#1" to="Rautatienkatu#3" number="173" type="short_passenger_car" />
+    <flow id="f7-6" begin="4500" end="5400" from="Sammonkatu#1" to="Hatanpaan_valtatie#38" number="50" type="short_passenger_car" />
+    <flow id="f8-6" begin="4500" end="5400" from="Kalevantie#25" to="Rautatienkatu#3" number="213" type="short_passenger_car" />
+    <flow id="f9-6" begin="4500" end="5400" from="Viinikankatu#2" to="Teiskontie#24" number="250" type="short_passenger_car" />
+    <flow id="f10-6" begin="4500" end="5400" from="Hatanpaan_valtatie#31" to="Sammonkatu#23" number="50" type="short_passenger_car" />
+    <flow id="f11-6" begin="4500" end="5400" from="Viinikankatu#2" to="Kalevan_puistotie#8" number="67" type="short_passenger_car" />
+    <flow id="f12-6" begin="4500" end="5400" from="Teiskontie#1" to="Lahteenkatu#8" number="173" type="short_passenger_car" />
+    <flow id="f13-6" begin="4500" end="5400" from="Sammonkatu#1" to="Viinikankatu#7" number="50" type="short_passenger_car" />
+
+    
+    <flow id="f1-7" begin="5400" end="6300" from="Kalevan_puistotie#38" to="Kalevantie#8" number="42" type="short_passenger_car" />
+    <flow id="f2-7" begin="5400" end="6300" from="Kalevantie#25" to="Lahteenkatu#8" number="182" type="short_passenger_car" />
+    
+    <flow id="f4-7" begin="5400" end="6300" from="Satakunnankatu#12" to="Rautatienkatu#3" number="73" type="short_passenger_car" />
+    <flow id="f5-7" begin="5400" end="6300" from="Kalevan_puistotie#38" to="Sammonkatu#23" number="42" type="short_passenger_car" />
+    <flow id="f6-7" begin="5400" end="6300" from="Teiskontie#1" to="Rautatienkatu#3" number="125" type="short_passenger_car" />
+    <flow id="f7-7" begin="5400" end="6300" from="Sammonkatu#1" to="Hatanpaan_valtatie#38" number="42" type="short_passenger_car" />
+    <flow id="f8-7" begin="5400" end="6300" from="Kalevantie#25" to="Rautatienkatu#3" number="182" type="short_passenger_car" />
+    <flow id="f9-7" begin="5400" end="6300" from="Viinikankatu#2" to="Teiskontie#24" number="237" type="short_passenger_car" />
+    <flow id="f10-7" begin="5400" end="6300" from="Hatanpaan_valtatie#31" to="Sammonkatu#23" number="42" type="short_passenger_car" />
+    <flow id="f11-7" begin="5400" end="6300" from="Viinikankatu#2" to="Kalevan_puistotie#8" number="42" type="short_passenger_car" />
+    <flow id="f12-7" begin="5400" end="6300" from="Teiskontie#1" to="Lahteenkatu#8" number="125" type="short_passenger_car" />
+    <flow id="f13-7" begin="5400" end="6300" from="Sammonkatu#1" to="Viinikankatu#7" number="42" type="short_passenger_car" />
+
+    
+    <flow id="f1-8" begin="6300" end="7200" from="Kalevan_puistotie#38" to="Kalevantie#8" number="57" type="short_passenger_car" />
+    <flow id="f2-8" begin="6300" end="7200" from="Kalevantie#25" to="Lahteenkatu#8" number="235" type="short_passenger_car" />
+    
+    <flow id="f4-8" begin="6300" end="7200" from="Satakunnankatu#12" to="Rautatienkatu#3" number="87" type="short_passenger_car" />
+    <flow id="f5-8" begin="6300" end="7200" from="Kalevan_puistotie#38" to="Sammonkatu#23" number="43" type="short_passenger_car" />
+    <flow id="f6-8" begin="6300" end="7200" from="Teiskontie#1" to="Rautatienkatu#3" number="152" type="short_passenger_car" />
+    <flow id="f7-8" begin="6300" end="7200" from="Sammonkatu#1" to="Hatanpaan_valtatie#38" number="43" type="short_passenger_car" />
+    <flow id="f8-8" begin="6300" end="7200" from="Kalevantie#25" to="Rautatienkatu#3" number="235" type="short_passenger_car" />
+    <flow id="f9-8" begin="6300" end="7200" from="Viinikankatu#2" to="Teiskontie#24" number="242" type="short_passenger_car" />
+    <flow id="f10-8" begin="6300" end="7200" from="Hatanpaan_valtatie#31" to="Sammonkatu#23" number="43" type="short_passenger_car" />
+    <flow id="f11-8" begin="6300" end="7200" from="Viinikankatu#2" to="Kalevan_puistotie#8" number="57" type="short_passenger_car" />
+    <flow id="f12-8" begin="6300" end="7200" from="Teiskontie#1" to="Lahteenkatu#8" number="152" type="short_passenger_car" />
+    <flow id="f13-8" begin="6300" end="7200" from="Sammonkatu#1" to="Viinikankatu#7" number="43" type="short_passenger_car" />
+
+</routes>
