@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="static-tampere.net.xml"/>
+        <route-files value="traffic.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+    <traffic-lights>
+        <tlLogic id="control_logic" type="static" programID="0" offset="0"/>
+    </traffic-lights>
+    <processing>
+        <seed value="42"/> <!-- Ensures reproducible randomness -->
+        <!-- Disable teleportation for vehicles stuck in jams -->
+        <time-to-teleport value="-1"/>
+        <!-- Prevent teleportation for collisions -->
+        <collision.action value="none"/>
+    </processing>
+</configuration>
